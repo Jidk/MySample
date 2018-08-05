@@ -22,14 +22,8 @@ class Search_Bar extends Component {
 
     abc = (event) => {
         console.log(event.target.value);
-        this.setState({ term: 'abc' });
+        this.setState({ term: event.target.value }); 
     }
-    /*
-         abc(event) {
-             console.log(event.target.value);
-             this.setState({ term: 'abc' });
-         }
-         */
 }
 
 
